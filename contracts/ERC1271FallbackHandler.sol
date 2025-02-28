@@ -1,7 +1,6 @@
 // SPDX-License-Identifier: LGPL-3.0
 pragma solidity ^0.8.0;
 import {Safe} from "@safe-global/safe-contracts/contracts/Safe.sol";
-import {ISignatureValidator} from "@safe-global/safe-contracts/contracts/interfaces/ISignatureValidator.sol";
 
 contract ERC1271FallbackHandler {
     // keccak256("SafeMessage(bytes message)");
